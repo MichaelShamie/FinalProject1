@@ -1,0 +1,48 @@
+
+<link rel="stylesheet" href="Devlaunch.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sidebar Navigation</title>
+ 
+<link rel="stylesheet" href="Devlaunch.css">
+</head>
+<body>
+
+  <button class="toggle-btn" onclick="toggleSidebar()">Toggle Menu</button>
+
+  <div class="sidebar" id="sidebar">
+    <a href="Index.html">About Me</a>
+    <a href="Freshman.html">Freshman</a>
+    <a href="Sophomore.html">Sophomore</a>
+    <a href="Junior.html">Junior</a>
+  </div>
+
+  <div class="content">
+    <h1>Freshamn Year</h1>
+    <p></p>
+
+    <div class="section">
+      <h2>My First Image Section</h2>
+      <img src="https://via.placeholder.com/600x300" alt="Example Image">
+      <p>I'll give a brief summary of my classes here</p>
+    </div>
+
+    <div class="section">
+      <h2>Another Section</h2>
+      <img src="https://via.placeholder.com/600x300" alt="Another Image">
+      <p>I'll talk about what I learned during my classes here </p>
+    </div>
+  </div>
+
+  <script>
+    function toggleSidebar() {
+      const sidebar = document.getElementById('sidebar');
+      sidebar.classList.toggle('closed');
+    }
+  </script>
+
+</body>
+</html>

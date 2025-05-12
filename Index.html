@@ -1,0 +1,82 @@
+
+    <link rel="stylesheet" href="Devlaunch.css">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Sidebar Navigation</title>
+     
+    <link rel="stylesheet" href="Devlaunch.css">
+    </head>
+    <body>
+    
+      <button class="toggle-btn" onclick="toggleSidebar()">Toggle Menu</button>
+    
+      <div class="sidebar" id="sidebar">
+        <a href="Index.html">About Me</a>
+        <a href="Freshman.html">Freshman</a>
+        <a href="Sophomore.html">Sophomore</a>
+        <a href="Junior.html">Junior</a>
+      </div>
+    
+      <div class="content">
+        <h1>Summary</h1>
+      
+    
+        <div class="section">
+          <h2>About Me</h2>
+          
+          <p>My name is Michael Shamie I go to HSA and I've always been intrested in tech. I started taking the computer pathway in 9th grade and stuck with it. <br>
+            In 9th grade I was in Mrs. Pathans Java programming class and Ms. Oneils engineering class. <br>
+            Then in my Sophomore year I took mr dals obkject oriented programming. <br>
+          Now in my junior year I take web design and Pre apprentice cybersecurity.  </p>
+        </div>
+    
+        <div class="section">
+          <h2>What I learned</h2>
+          <figure>
+          <img src="java.png" alt="JAVA" width="15%">
+          <figcaption>In java we learned the basics of the languages and how to do simple lines of code</figcaption>
+        </figure>
+
+
+        <figure>
+          <img src="cad.jpg" alt="CAD" width="15%">
+          <figcaption>In engineering we learned thing like how to build and print 3d images on OnShape</figcaption>
+        </figure>
+
+
+
+        <figure>
+          <img src="OOP.webp" alt="Object Oriented Programming" width="15%">
+          <figcaption>In Object Oriented Programming we learned how to put attributes and properities to an object</figcaption>
+        </figure>
+
+
+        <figure>
+          <img src="web design.avif" alt="Web" width="15%">
+          <figcaption>In webdesign we build webpages using HTML, CSS and Java Script</figcaption>
+        </figure>
+
+
+        <figure>
+          <img src="cyber.jpg" alt="Another Image" width="15%">
+          <figcaption>In cyberseurity we learn basic troubleshooting skills and the hardware/ softwares for internet/computers.</figcaption>
+        </figure>
+
+        </div>
+      </div>
+    
+      <script>
+        function toggleSidebar() {
+          const sidebar = document.getElementById('sidebar');
+          sidebar.classList.toggle('closed');
+        }
+      </script>
+    
+    </body>
+    </html>
+    
+                  
+                  
